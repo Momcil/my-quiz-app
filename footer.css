@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Supermercado+One&display=swap");
+
+img {
+  width: 3em;
+  background-color: aliceblue;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #05595b;
+  padding-top: 0.2em;
+  border-top: 0.125em solid aliceblue;
+}
+.nav img {
+  background-color: #e2d784;
+}
