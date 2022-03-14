@@ -83,9 +83,33 @@ p {
 .list {
   font-size: 1.2rem;
 }
-.empty {
-  width: 60rem;
-}
 .none {
   display: none;
+}
+@media screen and (min-width: 600px) {
+  section {
+    display: grid;
+    text-align: center;
+    padding-bottom: 20em;
+  }
+
+  .foto {
+    position: relative;
+    top: 5rem;
+    max-width: 600px;
+    max-height: 300px;
+  }
+  .info {
+    position: relative;
+    margin-top: 5rem auto;
+  }
+  .skiles {
+    max-width: 600px;
+    max-height: 300px;
+  }
+  .button {
+    position: relative;
+    margin-top: 5rem auto;
+    max-width: 250px;
+  }
 }
