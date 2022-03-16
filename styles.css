@@ -85,3 +85,9 @@ img {
   background: #05595b;
   padding-top: 0.2em;
 }
+.answer {
+  display: none;
+}
+.answer-active {
+  display: block;
+}
