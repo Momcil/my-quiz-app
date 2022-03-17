@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run htmlhint && npm run prettier:write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "stilelint": "npx stylelint \"**/*.css\"",
-    "eslint" : "npx eslint \"**/*.js\""
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "eslint": "npx eslint \"**/*.js\""
   },
   "keywords": [],
   "author": "",
